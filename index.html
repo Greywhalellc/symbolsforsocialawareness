@@ -1,26 +1,82 @@
 <!DOCTYPE html>
 <html>
+<head>
+  <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet'>
 <style>
+
+* {
+margin: 0px;
+padding: 0px;
+}
 
 body {
   background-color: #254593;
   color: #fff;
+  font-family: lato;
 }
 
 h1 {
   color: #3569bc;
+  font-size: 12vw;
+}
+
+h3 {
+  font-size: 6vw;
 }
 
 .header {
-  background-color: #fff;
+  background-color: #3569bc;
+  height: 14vh; 
+  margin-left: calc(50% - 50vw);
+  margin-right: calc(50% - 50vw);
+
+} 
+
+.brain {
+  margin: 0 auto;
+  padding: 20px 50px;
+  }
+
+.brain h3 {
+  text-align: center;
+}
+
+.title {
+  margin: 100px 100px;
+  text-align: center;
+  
+}
+
+.feelings {
+  text-align: center;
 }
 
 </style>
+</head>
 <body>
 
 <div class="header"> 
-
+  <div class="brain">
+    <h3>Check In</h3> 
+    <img src="" alt="brain" class="logo" width="150" height="150">
+  </div>
 </div>
 
+<div class="title">
+  <h1>
+    HOW DO 
+    YOU FEEL 
+    TODAY?
+  </h1>
+</div>
+
+<div class="feelings">
+  <button> Great </button>
+  <button> Good </button>
+  <button> Okay </button>
+  <button> Not Good </button>
+  <button> Bad </button>
+
+</div>
 </body>
 </html>
